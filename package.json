@@ -1,0 +1,14 @@
+{
+  "name": "todo-app-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --parallel run dev",
+    "dev:service": "pnpm --filter service run start:dev",
+    "dev:app": "pnpm --filter apps run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
